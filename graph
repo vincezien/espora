@@ -1,0 +1,13 @@
+graph = {
+    'vowel': ['a', 'e'],
+    'number': ['1', '2'],
+    'sign': ['+'],
+    'letter': [],
+    'arrow': [],
+}
+
+def display_graph(graph):
+    for node in graph:
+        print(node, "->", graph[node])
+        
+display_graph(graph)
